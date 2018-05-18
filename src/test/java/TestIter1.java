@@ -49,4 +49,10 @@ public class TestIter1 {
      
 
 }
+ 
+     @Test
+    public void euclidesRecursivoTest(){
+        assertEquals(21, MCD.mcdRecursivo(756, 525));
+        assertEquals(12, MCD.mcdRecursivo(1032, 180));
+    }
 }
