@@ -44,8 +44,8 @@ public class TestIter1 {
  public void test3Ciencias1(){
 
      
-     assertEquals(21 , Iter.mcd(756,525));
-     assertEquals(12 , Iter.mcd(1032,180));
+     assertEquals(21 , MCD.mcdIter(756,525));
+     assertEquals(12 , MCD.mcdIter(1032,180));
      
 
 }

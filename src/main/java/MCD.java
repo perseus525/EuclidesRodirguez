@@ -8,9 +8,9 @@
  *
  * @author marclo
  */
-public class Iter {
+public class MCD{
  
-    public static int mcd(int a, int b){
+    public static int mcdIter(int a, int b){
     
     int resultado = 0;
     
