@@ -31,4 +31,14 @@ public class Iter {
     System.out.println("el mcd es "+ a );
     return a;
     }
+    
+    
+    public static int mcdRecursivo(int a, int b){
+        int c = a%b;
+       if(c==0) return b;
+        else{
+         return mcdRecursivo(b,c);
+        }
+            
+    }
 }
